@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/txtScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="end|center_vertical"
+                android:maxLength="16"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button android:id="@+id/btnSeven" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="7" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnEight" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="8" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnNine" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="9" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnDivide" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="/" android:textSize="24sp">
+
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button  android:id="@+id/btnFour" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="4" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnFive" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="5" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnSix" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="6" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnMultiply" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="*" android:textSize="24sp">
+
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button android:id="@+id/btnOne" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="1" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnTwo" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="2" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnThree" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="3" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnSubtract" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="-" android:textSize="24sp">
+
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button android:id="@+id/btnDot" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="." android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnZero" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="0" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnClear" android:layout_height="80dp" android:layout_width="wrap_content"  android:layout_weight="1" android:text="C" android:layout_marginRight="4dp" android:textSize="24sp">
+
+                    </Button>
+                    <Button android:id="@+id/btnAddition" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="+" android:textSize="24sp">
+
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button android:id="@+id/btnEqual" android:layout_height="80dp" android:layout_width="wrap_content" android:layout_weight="1" android:text="=" android:textSize="24sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
